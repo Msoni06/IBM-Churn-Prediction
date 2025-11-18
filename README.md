@@ -29,10 +29,10 @@ The primary goal was to optimize for **Recall** to ensure we catch the maximum n
 ## 📊 Dashboard Preview
 
 **1. KPI Overview**
-![Main KPIs](dashboard_screenshot.png)
+![Main KPIs](dashboard_screenshot%20(2).png)
 
 **2. Churn by Payment Method**
-![Payment Analysis](dashboard_screenshot%20(2).png)
+![Payment Analysis](dashboard_screenshot.png)
 
 **3. Churn by Contract Type**
 ![Contract Analysis](dashboard_screenshot%20(3).png)
