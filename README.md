@@ -29,7 +29,7 @@ The primary goal was to optimize for **Recall** to ensure we catch the maximum n
 ## 📊 Dashboard Preview
 *An interactive Power BI dashboard was developed to track KPIs, Churn Rate by Contract, and Payment Method analysis.*
 
-![Power BI Dashboard](dashboard_screenshot.png)
+![Power BI Dashboard](full_dashboard.png)
 
 ---
 
@@ -64,4 +64,5 @@ Using SHAP values, we identified the top drivers of churn:
 │   └── 01_Data_Cleaning_and_EDA.ipynb         # Full Analysis & Modeling
 ├── Telco_Churn_Dashboard.pbix                 # Power BI File
 ├── requirements.txt                           # Dependencies
+
 └── README.md                                  # Project Documentation
