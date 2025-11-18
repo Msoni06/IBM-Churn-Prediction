@@ -62,6 +62,8 @@ Using SHAP values, we identified the top drivers of churn:
 │   └── churn_dashboard_data.csv               # Processed Data for Power BI
 ├── notebooks/
 │   └── 01_Data_Cleaning_and_EDA.ipynb         # Full Analysis & Modeling
+├── churn_analysis.sql                         # SQL Queries for Business Insights  <-- ADD THIS LINE
 ├── Telco_Churn_Dashboard.pbix                 # Power BI File
 ├── requirements.txt                           # Dependencies
 └── README.md                                  # Project Documentation
+
