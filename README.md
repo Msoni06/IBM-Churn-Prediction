@@ -1,8 +1,8 @@
 # 📉 Advanced Telco Customer Churn Prediction
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
-![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-yellow)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange?style=for-the-badge&logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/en/stable/)
+[![Power BI](https://img.shields.io/badge/Dashboard-Power%20BI-yellow?style=for-the-badge&logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
 
 ## 📋 Executive Summary
 This project helps a Telecom company reduce customer churn by identifying at-risk customers using Machine Learning. The solution includes an end-to-end pipeline: **Data Cleaning**, **EDA**, **XGBoost Modeling (96% Recall)**, **SQL Analysis**, and an interactive **Power BI Dashboard**.
@@ -64,5 +64,4 @@ Using SHAP values, we identified the top drivers of churn:
 │   └── 01_Data_Cleaning_and_EDA.ipynb         # Full Analysis & Modeling
 ├── Telco_Churn_Dashboard.pbix                 # Power BI File
 ├── requirements.txt                           # Dependencies
-
 └── README.md                                  # Project Documentation
