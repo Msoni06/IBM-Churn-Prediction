@@ -22,7 +22,20 @@ The primary goal was to optimize for **Recall** to ensure we catch the maximum n
 ## 🔍 Key Business Insights (EDA)
 1.  **Contract Type:** Customers with **Month-to-Month** contracts are the highest risk group.
 2.  **Payment Method:** "Electronic Check" users churn significantly more than those using credit cards.
-3.  **Internet Service:** **Fiber Optic** users have high churn rates despite higher monthly charges, suggesting dissatisfaction with price/service value.
+3.  **Internet Service:** **Fiber Optic** users have high churn rates despite higher monthly charges.
+
+---
+
+## 📊 Dashboard Preview
+
+**1. KPI Overview**
+![Main KPIs](dashboard_screenshot.png)
+
+**2. Churn by Payment Method**
+![Payment Analysis](dashboard_screenshot%20(2).png)
+
+**3. Churn by Contract Type**
+![Contract Analysis](dashboard_screenshot%20(3).png)
 
 ---
 
@@ -37,14 +50,6 @@ We trained Logistic Regression, Random Forest, and XGBoost. **XGBoost (Tuned)** 
 
 **Why 96% Recall?**
 We deliberately tuned the model to prioritize Recall over Precision. In a retention scenario, missing a churner (False Negative) is more costly than offering a discount to a loyal customer (False Positive).
-
----
-
-## 📊 Dashboard Preview
-*An interactive Power BI dashboard was developed to track KPIs.*
-
-![Dashboard Screenshot](dashboard_screenshot.png)
-*(Note: Add your screenshot here)*
 
 ---
 
